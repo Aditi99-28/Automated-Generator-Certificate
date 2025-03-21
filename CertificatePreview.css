@@ -1,0 +1,25 @@
+.certificate-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  .certificate-bg {
+    background-image: url("/public/certificate-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250vh;
+    height: 250vw;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .certificate-content {
+    position: relative;
+    padding: 50px;
+    color: rgb(188, 193, 27);
+  }
+  
